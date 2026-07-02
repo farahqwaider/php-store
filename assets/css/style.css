@@ -1,0 +1,128 @@
+/* Standard CSS Overrides to supplement Bootstrap 5 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Auth Pages & Form Wrapper Widths */
+.auth-card {
+    max-width: 500px;
+}
+
+.form-wrapper {
+    max-width: 760px;
+}
+
+/* Product Cards & Catalog Images */
+.product-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-placeholder {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 3rem;
+}
+
+/* Product Detail Page Images */
+.detail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.detail-placeholder {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 5rem;
+}
+
+/* Product Image Upload Preview */
+.image-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+/* Product Thumbnails & Icons in Tables */
+.product-thumbnail {
+    width: 2.75rem;
+    height: 2.75rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.product-icon {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 1.25rem;
+}
+
+/* Admin Dashboard Icon and Badges */
+.stat-icon {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+    color: #0d6efd;
+    font-size: 1.5rem;
+}
+
+.category-badge {
+    font-weight: 600;
+}
+
+.description-cell {
+    max-width: 24rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* State Indicators (Empty states / Delete modals) */
+.empty-icon {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 1.75rem;
+}
+
+.delete-icon {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #f8d7da;
+    color: #dc3545;
+    font-size: 1.75rem;
+}
